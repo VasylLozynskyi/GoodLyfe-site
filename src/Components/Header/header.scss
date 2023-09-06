@@ -1,0 +1,15 @@
+@use "scss/styleConstants/colors" as color;
+
+.wrapper_header {
+  background-color: color.$pink;
+  .container {
+    padding: 20px;
+    .navbar {
+      max-width: 700px;
+      .text_links {
+        color: color.$white;
+        padding: 8px;
+      }
+    }
+  }
+}

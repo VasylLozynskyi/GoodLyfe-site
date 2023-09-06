@@ -1,0 +1,11 @@
+@import "scss/styleConstants/button";
+
+  .button-block1{
+    @include button("1");
+  }
+  .button-block2{
+    @include button($ml);
+  }
+  .button-block3{
+    @include button($sm);
+  }

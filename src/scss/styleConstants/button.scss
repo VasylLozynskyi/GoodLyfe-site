@@ -1,0 +1,76 @@
+@use "colors" as color;
+
+$lg: "1";
+$ml: "2";
+$sm: "3";
+
+@mixin button($typebtn) {
+  display: flex;
+  justify-content: center;
+  border-radius: 50px;
+  @if $typebtn == $lg {
+    align-items: center;
+    width: 237px;
+    height: 68px;
+    button{
+      width: 237px;
+      height: 68px;
+      border-radius: 50px;
+      background-color: color.$pink-prem;
+      color: color.$white;
+      &:focus{
+        border: 4px solid color.$sub-pink;
+        background-color: color.$pink;
+      }
+      &:hover{
+        width: 229px;
+        height: 60px;
+        border: none;
+      }
+    }
+  }
+  @if  $typebtn == $ml {
+    width: 237px;
+    height: 68px;
+    align-items: none;
+    background-color: color.$gray-five;
+    button{
+      width: 237px;
+      height: 64px;
+      border-radius: 50px;
+      background-color: color.$white;
+      color: color.$pink;
+      border: 2px solid color.$pink;
+      &:hover{
+        color: color.$pink-prem;
+        border-color: color.$pink-prem;
+      }
+      &:focus{
+        color: color.$pink;
+        border-color: color.$pink;
+        outline: 6px solid color.$sub-pink;
+        height: 56px;
+        margin: 6px;
+      }
+    }
+  }
+  @if  $typebtn == $sm {
+    width: 116px;
+    height: 64px;
+    align-items: center;
+    button{
+      width: 116px;
+      height: 64px;
+      border-radius: 50px;
+      background-color: color.$white;
+      color: color.$pink;
+      &:hover{
+        color: color.$pink-prem;
+      }
+      &:focus{
+        color: color.$pink;
+        background-color: color.$gray-five;
+      }
+    }
+  }
+}
