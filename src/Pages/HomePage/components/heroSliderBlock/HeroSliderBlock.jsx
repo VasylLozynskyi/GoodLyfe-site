@@ -1,6 +1,6 @@
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
-import PropTypes from "prop-types"
+import PropTypes from "prop-types";
 import { slider_images_homepage } from "data/siteData/importImages";
 import "./herosliderblock.scss";
 import { ButtonComponent } from "Components/Buttoncomponent/ButtonComponent";
@@ -9,7 +9,7 @@ import { TempPopUp } from "Components/TempPopUp/TempPopUp";
 
 export const HeroSliderBlock = ({ data }) => {
   let [showPopUp, getShowPopUp] = useState(false);
-  console.log(showPopUp);
+
   return (
     <div className="container herosliderblock">
       <div className="_text">
@@ -20,9 +20,11 @@ export const HeroSliderBlock = ({ data }) => {
           </span>
           {data.titleEnd}
         </h1>
-        <div onClick={() => {
-              getShowPopUp(true);
-            }}>
+        <div
+          onClick={() => {
+            getShowPopUp(true);
+          }}
+        >
           <ButtonComponent
             btnName={data.button.name}
             typeBtn={data.button.typeBtn} /*stylebtn is only 1, 2 or 3 type */
@@ -49,8 +51,8 @@ HeroSliderBlock.propTypes = {
     spanTitle: PropTypes.string,
     titleEnd: PropTypes.string,
     button: PropTypes.shape({
-        name: PropTypes.string,
-        typeBtn: PropTypes.string,
+      name: PropTypes.string,
+      typeBtn: PropTypes.string,
     }),
-  })
-}
+  }),
+};
