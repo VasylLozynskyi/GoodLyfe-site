@@ -29,4 +29,15 @@ export const siteData = {
       typeBtn: "2",
     }
   },
+  homePage:{
+    heroSliderBlock:{
+      titleStart: "Welcome to Good",
+      spanTitle: "lyfe",
+      titleEnd: "Gyms",
+      button:{
+        name: "See the benefits",
+        typeBtn: "1",
+      }
+    },
+  },
 }

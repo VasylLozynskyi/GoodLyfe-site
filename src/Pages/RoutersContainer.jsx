@@ -11,7 +11,7 @@ export const RoutersContainer = ({ data }) => {
      <Header data={data.header} />
       <main>
         <Routes>
-          <Route path={routerLinks.homepage.link} element={<HomePage />} />
+          <Route path={routerLinks.homepage.link} element={<HomePage data={data.homePage} />} />
           <Route path={routerLinks.searchpage.link} element={<SearchPageContainer />} />
           {/* <Route path="/contacts" element={<ContactUsPage />} />
           <Route path="/team" element={<TeamPage />} />

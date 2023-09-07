@@ -1,9 +1,10 @@
+import { HeroSliderBlock } from "./components/heroSliderBlock/HeroSliderBlock"
 
 
-export const HomePage = () => {
+export const HomePage = ({ data }) => {
   return (
     <>
-    <h2>Page in progress</h2>
+    <HeroSliderBlock data={data.heroSliderBlock} />
     </>
   )
 }
