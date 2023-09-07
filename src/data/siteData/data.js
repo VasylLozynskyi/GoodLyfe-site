@@ -1,5 +1,6 @@
 import { logo_header } from "./importImages";
 import { search_icon } from "./importIcons";
+import { routerLinks } from "./routerLinks";
 
 export const siteData = {
   header: {
@@ -8,11 +9,11 @@ export const siteData = {
       altLogoHeader: "logo company",
     },
     navBar:[
-      {id: 1, name: "Classess", linkUrl: "/classess"},
-      {id: 2, name: "Timetable", linkUrl: "/timetable"},
-      {id: 3, name: "Clubs", linkUrl: "/clubs"},
-      {id: 4, name: "Nutrition", linkUrl: "/nutrition"},
-      {id: 5, name: "Free Trial", linkUrl: "/freetrial"}
+      {id: 1, name: "Classess", linkUrl: routerLinks.classesspage.link},
+      {id: 2, name: "Timetable", linkUrl: routerLinks.timetablepage.link},
+      {id: 3, name: "Clubs", linkUrl: routerLinks.clubspage.link},
+      {id: 4, name: "Nutrition", linkUrl: routerLinks.nutritionpage.link},
+      {id: 5, name: "Free Trial", linkUrl: routerLinks.freetrialpage.link}
     ],
     searchBar: {
       name: "Search",
