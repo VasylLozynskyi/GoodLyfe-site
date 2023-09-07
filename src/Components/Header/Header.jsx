@@ -15,8 +15,8 @@ export const Header = ({ data }) => {
     <div className="wrapper_header">
       <div className="container flex-block">
         <LogoBar data={data.logoBar} />
-        {showNavBar ? <NavBar data={data.navBar} /> : <SearchInputBar />}
-        <SearchBar data={data.searchBar} showInputBar={getShowNavBar} />
+        {showNavBar ? <NavBar data={data.navBar} /> : <SearchInputBar data={data.searchInputBar} />}
+        {showNavBar ? <SearchBar data={data.searchBar} showInputBar={getShowNavBar} /> : ""}
         <LoginBtnBar data={data.loginBtnBar} />
       </div>
     </div>

@@ -4,7 +4,7 @@ import { Header } from "Components/Header/Header"
 
 export const RoutersContainer = ({ data }) => {
   return (
-    <div className="WrapperSite">
+    <div className="wrapper_site">
      <Header data={data.header} />
       <main>
         {/* <Routes> */}

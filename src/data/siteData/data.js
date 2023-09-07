@@ -1,4 +1,5 @@
 import { logo_header } from "./importImages";
+import { search_icon } from "./importIcons";
 
 export const siteData = {
   header: {
@@ -15,8 +16,12 @@ export const siteData = {
     ],
     searchBar: {
       name: "Search",
-      iconUrl: "assets/icons/Search Icon.png",
-      altIcon: "search icon",
+      iconUrl: search_icon,
+    },
+    searchInputBar: {
+      namePlaceHolder: "search",
+      name: "Search",
+      typeBtn: "3",
     },
     loginBtnBar: {
       name: "Login",
