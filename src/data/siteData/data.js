@@ -8,12 +8,12 @@ export const siteData = {
       logoUrl: logo_header,
       altLogoHeader: "logo company",
     },
-    navBar:[
-      {id: 1, name: "Classess", linkUrl: routerLinks.classesspage.link},
-      {id: 2, name: "Timetable", linkUrl: routerLinks.timetablepage.link},
-      {id: 3, name: "Clubs", linkUrl: routerLinks.clubspage.link},
-      {id: 4, name: "Nutrition", linkUrl: routerLinks.nutritionpage.link},
-      {id: 5, name: "Free Trial", linkUrl: routerLinks.freetrialpage.link}
+    navBar: [
+      { id: 1, name: "Classess", linkUrl: routerLinks.classesspage.link },
+      { id: 2, name: "Timetable", linkUrl: routerLinks.timetablepage.link },
+      { id: 3, name: "Clubs", linkUrl: routerLinks.clubspage.link },
+      { id: 4, name: "Nutrition", linkUrl: routerLinks.nutritionpage.link },
+      { id: 5, name: "Free Trial", linkUrl: routerLinks.freetrialpage.link },
     ],
     searchBar: {
       name: "Search",
@@ -27,17 +27,26 @@ export const siteData = {
     loginBtnBar: {
       name: "Login",
       typeBtn: "2",
-    }
+    },
   },
-  homePage:{
-    heroSliderBlock:{
+  homePage: {
+    heroSliderBlock: {
       titleStart: "Welcome to Good",
       spanTitle: "lyfe",
       titleEnd: "Gyms",
-      button:{
+      button: {
         name: "See the benefits",
         typeBtn: "1",
-      }
+      },
     },
+    meetyournewbodyblock: {
+      title: "Meet your new body",
+      subTitle:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eget lectus urna. Nulla magna tortor, bibendum in molestie sed, gravida nec felis. Sed id egestasegestas risus, ut imperdiet augue.",
+      button:{
+        name: "View the FAQ",
+        typeBtn: "2",
+      },
+      },
   },
-}
+};
