@@ -11,6 +11,7 @@ export const HeroSliderBlock = ({ data }) => {
   let [showPopUp, getShowPopUp] = useState(false);
 
   return (
+    <>
     <div className="container herosliderblock">
       <div className="_text">
         <h1>
@@ -40,8 +41,9 @@ export const HeroSliderBlock = ({ data }) => {
           );
         })}
       </Carousel>
-      {showPopUp ? <TempPopUp getShowPopUp={getShowPopUp} /> : ""}
     </div>
+    {showPopUp ? <TempPopUp getShowPopUp={getShowPopUp} /> : ""}
+    </>
   );
 };
 

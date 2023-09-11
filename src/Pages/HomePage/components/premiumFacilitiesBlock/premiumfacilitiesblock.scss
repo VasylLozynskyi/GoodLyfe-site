@@ -1,0 +1,33 @@
+@use "scss/styleConstants/colors" as color;
+
+.premiumfacilitiesblock{
+  padding: 50px 0;
+  position: relative;
+  ._block{
+    width: 45%;
+    position: relative;
+    padding: 0 10px;
+    height: 500px;
+    &:first-child{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    }
+    ._image_1{
+      max-width: 400px;
+    }
+    ._image_2{
+      max-width: 400px;
+      position: absolute;
+      bottom: 0;
+      right: 30px;
+    }
+    h3{
+      color: color.$pink;
+      margin-bottom: 20px;
+    }
+    p{
+      margin-bottom: 20px;
+    }
+  }
+}

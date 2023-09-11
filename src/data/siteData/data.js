@@ -56,5 +56,13 @@ export const siteData = {
         typeBtn: "1",
       }
     },
+    premiumfacilitiesblock:{
+      title: "Premium Facilities",
+      subTitle: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eget lectus urna. Nulla magna tortor, bibendum in molestie sed, gravida nec felis. Sed id egestasegestas risus, ut imperdiet augue.",
+      button:{
+        name: "Learn more",
+        typeBtn: "2",
+      }
+    },
   },
 };
