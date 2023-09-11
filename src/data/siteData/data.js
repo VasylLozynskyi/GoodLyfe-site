@@ -47,6 +47,14 @@ export const siteData = {
         name: "View the FAQ",
         typeBtn: "2",
       },
-      },
+    },
+    slidingpanelblock: {
+      title: "Become more than you are.",
+      subTitle: "Staying active is great fun and keeps you healthy. Check out how you can join in.",
+      button:{
+        name: "Let's do it!",
+        typeBtn: "1",
+      }
+    },
   },
 };
