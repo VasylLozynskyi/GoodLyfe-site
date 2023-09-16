@@ -67,6 +67,9 @@ export const siteData = {
     realstoriesblock:{
       title: "Real Stories from Real Customers",
       subTitle: "Be inspired with these experiences.",
+    },
+    socialassetsblock:{
+      title: "Social"
     }
   },
 };

@@ -1,0 +1,26 @@
+@use "scss/styleConstants/colors" as color;
+
+.socialassetsblock{
+  background-color: color.$sub-pink;
+  padding: 50px;
+  text-align: center;
+  h2{
+    margin-bottom: 30px;
+    color: color.$pink;
+    text-transform: uppercase;
+  }
+  .social-links{
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    > a{
+      background-color: color.$white;
+      width: 80px;
+      height: 80px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 50%;
+    }
+  }
+}

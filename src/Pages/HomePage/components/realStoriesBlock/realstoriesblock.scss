@@ -1,12 +1,12 @@
 .realstoriesBlock {
-  padding: 50px 100px 10px 100px;
+  padding: 50px 100px;
   position: relative;
   display: flex;
   margin: 0 auto;
   flex-direction: column;
   flex-wrap: wrap;
   gap: 20px;
-  max-height: 900px;
+  max-height: 800px;
   background: linear-gradient(0deg, rgba(244, 227, 233, 0.6) 0%, rgba(255, 255, 255, 0.4) 100%);
   > div:nth-child(odd):not(:first-child) {
     width: 450px;
