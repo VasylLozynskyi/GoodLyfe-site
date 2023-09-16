@@ -4,6 +4,7 @@ import { Header } from "Components/Header/Header"
 import { HomePage } from "./HomePage/HomePage"
 import { SearchPageContainer } from "./SearchPage/SearchPageContainer"
 import { routerLinks } from "data/siteData/routerLinks"
+import { Footer } from "Components/Footer/Footer"
 
 export const RoutersContainer = ({ data }) => {
   return (
@@ -22,7 +23,7 @@ export const RoutersContainer = ({ data }) => {
           <Route path="*" element={<Error404Page />} /> */}
         </Routes>
       </main>
-      {/* <Footer /> */}
+      <Footer data={data.footer} />
     </div>
   )
 }

@@ -1,0 +1,10 @@
+@use "scss/styleConstants/colors" as color;
+
+.wrapper_footer{  
+  background-color: color.$gray-one;
+  padding: 50px;
+  text-align: center;
+  > div, p{
+    color: color.$gray-four;
+  }
+}

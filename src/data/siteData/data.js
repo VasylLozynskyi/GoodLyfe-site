@@ -72,4 +72,11 @@ export const siteData = {
       title: "Social"
     }
   },
+  footer: {
+    subTitle: "© 2020 GoodLyfe. All rights reserved",
+    logoBar: {
+      logoUrl: logo_header,
+      altLogoHeader: "logo company",
+    },
+  }
 };

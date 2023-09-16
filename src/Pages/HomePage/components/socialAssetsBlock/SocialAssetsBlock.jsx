@@ -7,7 +7,7 @@ export const SocialAssetsBlock = ({ data }) => {
       <h2>{data.title}</h2>
       <div className="flex-block social-links">
         {socialLinks.map((el) => (
-            <a href={el.url}>
+            <a href={el.url} key={el.name}>
               <img src={el.icon.src} alt={el.icon.alt} />
             </a>
         ))}
