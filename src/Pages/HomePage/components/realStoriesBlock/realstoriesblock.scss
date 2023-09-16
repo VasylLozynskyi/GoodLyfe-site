@@ -1,0 +1,26 @@
+.realstoriesBlock {
+  padding: 50px 100px 10px 100px;
+  position: relative;
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 20px;
+  max-height: 900px;
+  background: linear-gradient(0deg, rgba(244, 227, 233, 0.6) 0%, rgba(255, 255, 255, 0.4) 100%);
+  > div:nth-child(odd):not(:first-child) {
+    width: 450px;
+  }
+  > div:nth-child(even) {
+    width: 350px;
+  }
+  > div:nth-child(2){
+    margin-left: 100px;
+  }
+  ._title {
+    max-width: 400px;
+    float: left;
+    margin-top: -50px;
+  }
+  
+}

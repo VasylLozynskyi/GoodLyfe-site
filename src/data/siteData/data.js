@@ -64,5 +64,9 @@ export const siteData = {
         typeBtn: "2",
       }
     },
+    realstoriesblock:{
+      title: "Real Stories from Real Customers",
+      subTitle: "Be inspired with these experiences.",
+    }
   },
 };
